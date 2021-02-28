@@ -1,0 +1,76 @@
+Model 1: 
+batch size = 128, 
+3 convolutional layers, 
+hidden layers = 512, 
+target size =250x250, 
+steps per epoch = 8, 
+validation steps = 8, 
+epochs = 15
+
+accuracy = 0.6989966630935669
+val_accuracy = 0.734375 
+
+
+Model 2: 
+batch size = 128, 
+6 convolutional layers, 
+hidden layers = 512, 
+target size =250x250, 
+steps per epoch = 8, 
+validation steps = 8, 
+epochs = 10
+
+accuracy = 0.6337890625
+val_accuracy = 0.6806640625
+
+
+Model 3: 
+batch size = 128, 
+6 convolutional layers, 
+hidden layers = 512, 
+target size =250x250, 
+steps per epoch = 8, 
+validation steps = 8, 
+epochs = 15
+
+accuracy = 0.7012262940406799
+val_accuracy = 0.50390625
+
+
+Model 4: 
+batch size = 128, 
+6 convolutional layers, 
+hidden layers = 512, 
+target size =250x250, 
+steps per epoch = 12, 
+validation steps = 12, 
+epochs = 10
+
+accuracy = 0.6586231589317322
+val_accuracy = 0.6673176884651184
+
+
+Model 5:
+batch size = 32, 
+6 convolutional layers, 
+hidden layers = 512, 
+target size =250x250, 
+steps per epoch = 8, 
+validation steps = 8, 
+epochs = 4
+
+accuracy = 0.55078125
+val_accuracy = 0.640625
+
+
+Model 6: -> the best model so far!
+batch size = 128, 
+6 convolutional layers, 
+hidden layers = 512, 
+target size =250x250, 
+steps per epoch = 12, 
+validation steps = 12, 
+epochs = 15
+
+accuracy = 0.7259114384651184
+val_accuracy = 0.72265625
