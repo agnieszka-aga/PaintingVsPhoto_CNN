@@ -74,3 +74,13 @@ epochs = 15
 
 accuracy = 0.7259114384651184
 val_accuracy = 0.72265625
+
+Model 7:
+batch size = 128,
+6 convolutional layers,
+hidden layers = 512, 
+target size =250x250, 
+# steps per epoch = 12, 
+validation steps = 12, 
+epochs = 15, 
+shuffle = False
